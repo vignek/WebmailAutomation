@@ -1,0 +1,15 @@
+Follow these instrcutions
+
+1) Put zoho.xls file in E:\Readingdata folder.
+
+2) To download the supporting jars.
+   - Command prompt
+   - E:\maven\DataDriven_zoho_2016
+   - run pom.xml by typing mvn compile
+   - mvn eclipse:eclipse
+
+3) Import poi jars files from lib folder.
+
+MUST HAVE Mozilla firefox ver 30.0
+
+link to download : http://filehippo.com/download_firefox/57856/
