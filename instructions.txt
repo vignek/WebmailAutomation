@@ -1,10 +1,10 @@
-Follow these instrcutions
+Follow these instructions to run the project
 
-1) Put zoho.xls file in E:\Readingdata folder.
+1) Put zoho.xls file in Users/Desktop/Readingdata folder.
 
 2) To download the supporting jars.
-   - Command prompt
-   - E:\maven\DataDriven_zoho_2016
+   - Open Terminal prompt
+   - /Users/maven/DataDriven_zoho_2016
    - run pom.xml by typing mvn compile
    - mvn eclipse:eclipse
 
