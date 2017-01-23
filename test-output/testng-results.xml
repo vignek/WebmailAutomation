@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15141" started-at="2016-11-04T19:09:02Z" finished-at="2016-11-04T19:09:17Z">
+  <suite name="Default suite" duration-ms="11818" started-at="2017-01-23T00:23:50Z" finished-at="2017-01-23T00:24:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15141" started-at="2016-11-04T19:09:02Z" finished-at="2016-11-04T19:09:17Z">
-      <class name="com.qtpselenium.zoho.project.testcases.logintest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.qtpselenium.zoho.project.testcases.logintest@7a187f14]" name="init" is-config="true" duration-ms="0" started-at="2016-11-04T15:09:03Z" finished-at="2016-11-04T15:09:03Z">
+    <test name="Default test" duration-ms="11818" started-at="2017-01-23T00:23:50Z" finished-at="2017-01-23T00:24:01Z">
+      <class name="com.selenium.gmail.testcases.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.selenium.gmail.testcases.LoginTest@670b40af]" name="initialize" is-config="true" duration-ms="478" started-at="2017-01-22T19:23:50Z" finished-at="2017-01-22T19:23:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="doLoginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.zoho.project.testcases.logintest@7a187f14]" name="doLoginTest" duration-ms="13092" started-at="2016-11-04T15:09:03Z" data-provider="getData" finished-at="2016-11-04T15:09:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Username=ar729@njit.edu, ExpectedResult=Y, Password=pass@1234, Runmode=Y, Browser=Mozilla}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="doLoginTest()[pri:0, instance:com.selenium.gmail.testcases.LoginTest@670b40af]" name="doLoginTest" duration-ms="10910" started-at="2017-01-22T19:23:50Z" finished-at="2017-01-22T19:24:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginTest -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.qtpselenium.zoho.project.testcases.logintest@7a187f14]" name="quit" is-config="true" duration-ms="1235" started-at="2016-11-04T15:09:16Z" finished-at="2016-11-04T15:09:17Z">
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.selenium.gmail.testcases.LoginTest@670b40af]" name="exit" is-config="true" duration-ms="416" started-at="2017-01-22T19:24:01Z" finished-at="2017-01-22T19:24:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.qtpselenium.zoho.project.testcases.logintest -->
+        </test-method> <!-- exit -->
+      </class> <!-- com.selenium.gmail.testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

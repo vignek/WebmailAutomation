@@ -1,42 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="SuiteName">
-
-<test name = "LoginTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.logintest"/>
-</classes>
-</test>
-
-<test name = "CreateLeadTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.leadtest"/>
-</classes>
-</test>
-
-<test name = "convertLeadTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.convertleadtest"/>
-</classes>
-</test>
-
-<test name = "DeleteLeadAccountTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.deleteleadtest"/>
-</classes>
-</test>
-
-<test name = "CreatePotentialTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.potentialtest"/>
-</classes>
-</test>
-
-<test name = "DeletePotentialTest" allow-return-values="true">
-<classes>
-<class name ="com.qtpselenium.zoho.project.testcases.deletepotential"/>
-</classes>
-</test>
-
-
-</suite>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.gmail.testcases.LoginTest"/>
+      <class name="com.selenium.gmail.testcases.FileUploadTest"/>
+      <class name="com.selenium.gmail.testcases.SearchMailTest"/>
+      <class name="com.selenium.gmail.testcases.LogoutTest"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

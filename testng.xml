@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.qtpselenium.zoho.project.testcases.logintest"/>
-      <class name="com.qtpselenium.core.ddf.testcases.DummyTestC"/>
-      <class name="com.qtpselenium.core.ddf.testcases.DummyTestB"/>
+      <class name="com.selenium.gmail.testcases.LoginTest"/>
+      <class name="com.selenium.gmail.testcases.FileUploadTest"/>
+      <class name="com.selenium.gmail.testcases.SearchMailTest"/>
+      <class name="com.selenium.gmail.testcases.LogoutTest"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
