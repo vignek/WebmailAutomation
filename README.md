@@ -1,4 +1,4 @@
-# Webmail Automation
+# Gmail Automation
 
 #### Personal Project work done using Selenium, TestNG and log4j
 - This Project Automates a popular email service 
