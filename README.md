@@ -17,10 +17,23 @@ Use the firefox version or later [49.0.2](https://pip.pypa.io/en/stable/) to ins
 
 Use GeckoDriver [0.11.1](https://github.com/mozilla/geckodriver/releases)
 
-Running the code : 
+Launching the code : 
 ```bash
-javac AbstractWebDriverTest.java 
+javac BaseTest.java 
 ```
+
+### Directory Structure
+
+    .
+    ├── Config                  # Add Test config here (alternatively `dist`)
+    ├── reports                 # Extents Reports (alternatively `doc`)
+    ├── screenshots             # Screen capture files 
+    ├── src/com/selenium/gmail  # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
+
 
 ## Usage
 
